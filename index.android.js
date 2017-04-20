@@ -1,6 +1,6 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * App Launcher
+ * https://github.com/saumya/ReactAndroidAppLauncher
  * @flow
  */
 
@@ -9,6 +9,7 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  TouchableHighlight,Alert,Linking,
   View
 } from 'react-native';
 
@@ -19,11 +20,17 @@ export default class AppLauncher extends Component {
         <Text style={styles.welcome}>
           Application Home
         </Text>
-        <Text style={styles.instructions}>
-          Choose your need.
-        </Text>
+        <TouchableHighlight onPress={this._onPressFileManager.bind(this)}>
+          <Text style={styles.welcome}> File Manager </Text>
+        </TouchableHighlight>
       </View>
     );
+  }
+  _onPressFileManager(){
+    //console.log('_onPressFileManager');
+    //Alert.alert('Alert Title','My Alert Msg');
+    const urlToOpen = 'tel:9876543210';
+    Linking.openURL(urlToOpen);
   }
 }
 
