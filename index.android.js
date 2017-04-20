@@ -29,7 +29,10 @@ export default class AppLauncher extends Component {
   _onPressFileManager(){
     //console.log('_onPressFileManager');
     //Alert.alert('Alert Title','My Alert Msg');
-    const urlToOpen = 'tel:9876543210';
+
+    //const urlToOpen = 'tel:9876543210';
+    const urlToOpen = 'file:///android_asset/';
+    
     Linking.openURL(urlToOpen);
   }
 }
