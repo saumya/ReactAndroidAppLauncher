@@ -4,7 +4,7 @@ Android Application Launcher
 
 
 
-##### Utility commands
+### Utility commands
 
 ```
 // Android
