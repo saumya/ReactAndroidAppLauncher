@@ -31,7 +31,11 @@ export default class AppLauncher extends Component {
     //Alert.alert('Alert Title','My Alert Msg');
 
     //const urlToOpen = 'tel:9876543210';
-    const urlToOpen = 'file:///android_asset/';
+    //const urlToOpen = 'file:///android_asset/';
+
+    //ref : https://stackoverflow.com/questions/37878809/react-native-image-not-loading-image-from-sdcard-in-android
+    //const urlToOpen = 'file:///storage/emulated/0/Pictures';
+    const urlToOpen = 'file:///storage/';
     
     Linking.openURL(urlToOpen);
   }
