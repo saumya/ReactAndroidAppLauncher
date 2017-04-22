@@ -1,6 +1,8 @@
 Android Application Launcher
 ============================
 
+ An experiement to launch different applications on android.
+
 
 
 
