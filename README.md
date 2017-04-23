@@ -3,6 +3,10 @@ Android Application Launcher
 
  An experiement to launch different applications on android.
 
+### Findings
+
+ - Seems like it can not be done
+
 
 
 
