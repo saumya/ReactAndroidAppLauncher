@@ -6,6 +6,7 @@ Android Application Launcher
 ### Findings
 
  - Seems like it can not be done
+ - Only some applications, which have the URL scheme known are openable
 
 
 
